@@ -1,50 +1,80 @@
-AI Career & Resume Analyzer
+🚀 AI Career & Resume Analyzer
 
-An AI-powered web application that analyzes resumes and helps users understand how well their skills match a selected job role.
 
-Features
 
-- Upload and extract text from PDF resumes
-- Analyze resume skills
-- Calculate job match percentage
-- Identify matched and missing skills
-- Compare resume content with job descriptions using NLP
-- Provide personalized career recommendations
-- Visualize analysis results with charts
-- Download the analysis report
+✨ About the Project
 
-Technologies Used
+AI Career & Resume Analyzer is a Python-based web application designed to help job seekers understand how well their resumes match their target job roles.
 
-- Python
-- Streamlit
-- Natural Language Processing (NLP)
-- PDF Text Extraction
-- Data Visualization
+It analyzes resume content, identifies relevant skills, highlights skill gaps, and provides useful career recommendations through an interactive dashboard.
 
-How to Run the Project
+🎯 Goal: Help job seekers make smarter career decisions and prepare more effectively for job opportunities.
 
-1. Clone this repository.
+🌟 Key Features
 
-2. Open the project folder in VS Code.
+- 📄 PDF Resume Upload — Upload a resume for analysis.
+- 🧠 Skill Extraction — Identify relevant skills from resume content.
+- 🎯 Job Role Matching — Compare resume skills with selected job requirements.
+- 📊 Match Percentage — View a score representing the skill match.
+- 🔍 Missing Skills Detection — Discover skills that may need improvement.
+- 💡 Career Recommendations — Get suggestions to improve job readiness.
+- 📈 Visual Analytics — Understand results through charts and visual summaries.
+- 📥 Downloadable Report — Download the analysis results.
 
-3. Install the required dependencies:
-   
-   "pip install -r requirements.txt"
+🛠️ Tech Stack
 
-4. Run the application:
-   
-   "streamlit run app.py"
+Technology| Purpose
+🐍 Python| Core programming language
+🌐 Streamlit| Interactive web application
+🧠 NLP| Text and job-description similarity analysis
+📄 PDF Processing| Resume text extraction
+📊 Data Visualization| Display analysis results
 
-Project Objective
+⚙️ Getting Started
 
-The goal of this project is to help job seekers identify skill gaps, improve their resumes, and prepare for suitable job opportunities.
+Follow these steps to run the project locally.
 
-Future Improvements
+1️⃣ Clone the Repository
 
-- Add a saved analysis dashboard
-- Support more job roles
-- Improve skill extraction and job matching accuracy
+git clone https://github.com/saniyakhark-cpu/AI-Career-Analyzer.git
 
-Author
+2️⃣ Open the Project Folder
 
-AI & Data Science Engineering Student
+cd AI-Career-Analyzer
+
+3️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+«💡 If your repository does not contain "requirements.txt", install the dependencies listed in your project instead.»
+
+4️⃣ Run the Application
+
+streamlit run app.py
+
+Open the local URL displayed in your terminal to use the application.
+
+🔄 How It Works
+
+1. 📤 Upload your resume in PDF format.
+2. 🎯 Select the job role you want to target.
+3. 🧠 Analyze your resume and skills.
+4. 📊 Review the match score and matched skills.
+5. 🔍 Identify missing skills.
+6. 💡 Use the recommendations to plan your next learning steps.
+
+🚀 Future Enhancements
+
+- ➕ Support for additional job roles.
+- 🎯 More advanced resume-to-job matching.
+- 📚 Personalized learning recommendations.
+- 📊 Enhanced career analytics and reporting.
+
+👩‍💻 Author
+
+Saniya Khark
+
+🎓 B.Tech — Artificial Intelligence & Data Science
+
+🔗 GitHub: "@saniyakhark-cpu" (https://github.com/saniyakhark-cpu)
+
