@@ -196,6 +196,7 @@ Missing Skills:
 st.download_button(
     label="Download Report",
     data=report,
+     
     file_name = "resume_analysis_report.txt",
     mime = "text/plain"
 )
